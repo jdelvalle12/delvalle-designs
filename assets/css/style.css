@@ -1,161 +1,162 @@
 /* Universal Selector */
 * {
+    position: relative;
     font-family: "Orbitron","Quantico", sans-serif;
     font-size: 25px;
     background-color: black;
     color:rgb(109, 108, 108);
     margin:0;
     padding:0;  
-    width: 100%;
+    width: auto;
     height: auto;
-  }
-
-.main-content {
-    position: relative;
-    top:2rem; /* To offset for fixed header. */
 }
 
-.image-container img {
+main {
+    position: relative; /* To offset for fixed header. */
+}
+
+img {
     overflow: auto;
-    max-width: 100%;
+    max-width: auto;
 }
-  
+
+/* Class Selectors */
+
+.text-center {
+   text-align: center;
+}
+    
+.text-right {
+   text-align: right;
+}
+
   /* Element Selectors */
-  body {
-    position: relative;
-    font-family: "Orbitron","Quantico", sans-serif;
-    font-size: 25px;
-    background-color: #FDF8F5;
-    color: gray;
-  }
+
 
   @media only screen and (max-width: 992px) {
-    .main-content {
+    main {
       top: 2rem;
     }
 }
 
-  /*Header*/
+/*Header*/
+
 header {
   position: relative;
-  border-bottom: 10px solid gray;
-  font-size: 25px;
+  border-bottom: 5px solid gold;
   z-index: 100;
   width: 100%;
+  height: auto;
+  line-height: 50px;
+}
+
+header .logo {
+  padding-top: 2rem; 
+  font-size: 25px
 }
 
 header nav ul {
    display: inline-block;
    padding-right: 2.0rem;
+   margin: auto;
    font-family: "Orbitron","Quantico", sans-serif;
-   font-size: 24px;
-   line-height: 1.6;
-   color: #0b0b0b;
+   font-size: 20px;
+   line-height: 1.9;
    list-style-type: none;
 }
 
 header li {
     display: inline;
-    padding: 0px 20px;
+    padding: 1px 20px;
     text-decoration: none;
     color: whitesmoke;
-  }
+}
   
+/*Main*/
 
-  h2 {
-    margin: 20px;
-    background: none;
-  }
+main {
+    padding: 0 0;
+}
+
+img {
+    position: relative;
+    padding: auto;
+    z-index: 100;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+  margin: 20px;
+  background: none;
+}
+
+li {
+   display: inline;
+   padding: 0px 20px;
+   text-decoration: none;
+   color: whitesmoke;
+}
   
-  main {
-    padding: 60px 0;
-  }
+a {
+  text-decoration: none;
+  color: #FDF8F5;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  background:none;
+}
   
-  li {
-    display: inline;
-    padding: 0px 20px;
-    text-decoration: none;
-    color: whitesmoke;
-  }
+form {
+    /* Center the form on the page */
+  margin: 50px auto;
+  width: 500px;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
   
-  a {
-    text-decoration: none;
-    color: #FDF8F5;
-  }
+label {
+  display: inline-block;
+  width: 100px;
+}
+    
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
   
-  header,
-  footer {
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+    
+button {
+  height: 35px;
+  width: 120px;
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+/*Footer*/
+
+footer {
     height: 60px;
     width: 100%;
     line-height: 60px;
     background-color: black;
-  }
-  
-  
-  
-  footer {
     position: absolute;
     margin-top: 0;
     bottom: 0;
-    border-bottom: 10px solid #4F4846;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid #6b6b6b;
     color: #FDF8F5;    
-  }
-  
-  
-  img {
-    display: block;
-    margin: 0 auto;
-    position: relative
-  }
-  
-  section {
-    margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
-    border-top: 15px solid gray;
-    background-color:  rgb(15, 29, 224);
-  }
-  
-  form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 500px;
-    padding: 10px;
-    border: 5px solid whitesmoke;
-    border-radius: 20px;
-  }
-  
-  label {
-    display: inline-block;
-    width: 100px;
-  }
-    
-  input, 
-  textarea {
-    box-sizing: border-box;
-    width: 300px;
-    border: 1px solid black;
-    background-color: whitesmoke;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 60px;
-  }
-    
-  button {
-    height: 35px;
-    width: 120px;
-    background-color: whitesmoke;
-    color: black;
-    cursor: pointer;
-  }
-   
-  /* Class Selectors */
-  .text-center {
-    text-align: center;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
+    text-align: justify;
+}
   
