@@ -1,5 +1,5 @@
 /* Universal Selector */
-* {
+html {
     position: relative;
     font-family: "Orbitron","Quantico", sans-serif;
     font-size: 25px;
@@ -52,7 +52,7 @@ header {
 
 header .logo {
   padding-top: 2rem; 
-  font-size: 25px
+  font-size: 30px
 }
 
 header nav ul {
@@ -84,6 +84,7 @@ img {
     z-index: 100;
     display: block;
     margin: auto;
+    width: auto;
 }
 
 h2 {
@@ -111,8 +112,8 @@ section {
   
 form {
     /* Center the form on the page */
-  margin: 50px auto;
-  width: 500px;
+  margin: 40px auto;
+  width: 900px;
   padding: 10px;
   border: 2px solid whitesmoke;
   border-radius: 20px;
@@ -120,26 +121,28 @@ form {
   
 label {
   display: inline-block;
-  width: 100px;
+  width: 80px;
 }
     
 input, 
 textarea {
   box-sizing: border-box;
-  width: 300px;
+  width: 600px;
   border: 1px solid black;
   background-color: whitesmoke;
+  border-radius: 15px;
 }
   
 textarea {
   vertical-align: top;
-  height: 60px;
+  height: 30px;
 }
     
 button {
   height: 35px;
-  width: 120px;
+  width: 100px;
   background-color: whitesmoke;
+  border-radius: 15px;
   color: black;
   cursor: pointer;
 }
