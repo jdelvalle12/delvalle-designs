@@ -93,23 +93,25 @@ header li {
 }
 
 #about-me {
-    font-size: 15px;
+    font-size: 12px;
     position: absolute;
     display: block;
-    top: 160px;
+    top: 260px;
     right: 1%;
     padding: 0 1rem;
+    width: 13rem;
     border: solid 1px #f6f2f2;
-    border-radius: 2px;    
+    border-radius: 8px;    
     box-sizing: border-box;
+    
 }
 
-#about-me p {
+#about-me span {
     font-size: 15px;
 }
 
 .about-me h2 {
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .about-me-aside {
@@ -117,8 +119,14 @@ header li {
     font-size: 12px;
 }
 
+/*Portfolio*/
+
+#portfolio-section {
+  
+}
+
 h2 {
-  margin: 20px;
+  margin: 10px;
   background: none;
 }
 
@@ -144,20 +152,21 @@ form {
     /* Center the form on the page */
   margin: 20px auto;
   width: auto;
-  padding: 0;
+  padding: 0 2;
   border: 2px solid whitesmoke;
   border-radius: 20px;
-  float: up, left;
+  float: left;
 }
   
 label {
   display: inline-block;
-  width: 50px;
+  width: 80px;
 }
     
 input, 
 textarea {
   box-sizing: border-box;
+
   width: auto;
   border: 1px solid black;
   background-color: whitesmoke;
@@ -186,7 +195,7 @@ footer {
     line-height: 60px;
     background-color: black;
     position: absolute;
-    margin-top: 0;
+    margin-top: 5;
     bottom: 0;
     border-top: 2px solid gray;
     border-bottom: 5px solid #6b6b6b;
