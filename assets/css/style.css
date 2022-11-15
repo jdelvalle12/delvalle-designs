@@ -12,7 +12,7 @@ html {
 }
 
 main {
-    position: relative; /* To offset for fixed header. */
+    position: relative;
 }
 
 img {
@@ -72,9 +72,25 @@ header li {
     color: whitesmoke;
 }
 
-/*Picture of Me*/
+/*Main*/
 
-#picture-of-me-section {
+#main-content {
+  position: relative;
+  padding: auto;
+  z-index: 100;
+  display: block;
+  font-size: 15px;
+  height: auto;
+  width: auto;
+  background-image: url('./assets/images/Background.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no repeat;  
+}
+
+/*Picture of me section*/
+
+.picture-of-me-section {
   position: absolute, top, left;
   padding: auto;
   z-index: 100;
@@ -84,24 +100,9 @@ header li {
   float: left;
 }
 
-  
-/*About Me*/
+/*About me*/
 
-#about-me-section {
-    position: relative;
-    padding: auto;
-    z-index: 100;
-    display: block;
-    font-size: 15px;
-    height: auto;
-    width: auto; 
-    background-image: url('./assets/images/Background.jpg');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no repeat;  
-}
-
-#about-me {
+.about-me {
     font-size: 12px;
     position: absolute;
     display: block;
@@ -115,7 +116,7 @@ header li {
     
 }
 
-#about-me span {
+.about-me span {
     font-size: 15px;
 }
 
@@ -131,7 +132,17 @@ header li {
 /*Portfolio*/
 
 #portfolio-section {
-  
+  position: absolute;
+    padding: auto;
+    z-index: 100;
+    display: block;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    bottom: 360px;
+    border: solid 1px whitesmoke;
+    border-radius: 8px;    
+    box-sizing: border-box;
 }
 
 h2 {
