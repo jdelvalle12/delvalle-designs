@@ -86,6 +86,15 @@ header li {
   background-position: bottom;
   background-size: cover;
   background-repeat: no repeat;  
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  bottom: 460px;
+  left: 2%;
+  position: absolute;
+  width: 12rem;
 }
 
 /*Picture of me section*/
@@ -97,6 +106,7 @@ header li {
   display: flex;
   height: 10rem;
   width: auto;
+  top: 1px;
   float: right;
 }
 
@@ -110,6 +120,7 @@ header li {
     right: 5%;
     padding: 0 1rem;
     width: 13rem;
+    height: auto;
     border: solid 1px whitesmoke;
     border-radius: 8px;    
     box-sizing: border-box;
@@ -130,26 +141,21 @@ header li {
     font-size: 12px;
 }
 
-/*Portfolio*/
+/*Projects*/
 
-.portfolio-section {
+.projects-section {
   position: absolute;
   padding: auto;
   z-index: 100;
   display: block;
   font-size: 15px;
+  color:#4a4a4a;
   height: auto;
   width: auto;
-  bottom: 360px;
-  border: solid 1px whitesmoke;
-  border-radius: 8px;    
-  box-sizing: border-box;
+  bottom: 560px;
   text-decoration: none;
 }
 
-.portfolio a {
-  text-decoration: none;
-}
 
 h2 {
   margin: 10px;
