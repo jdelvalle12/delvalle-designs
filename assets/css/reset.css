@@ -145,15 +145,23 @@ h1 {
   z-index: 100;
   display: block;
   font-size: 20px;
-  color:#413a3a;
+  color:#000000;
   height: auto;
   width: auto;
-  bottom: 230px;
+  bottom: 305px;
   text-decoration: none;
 }
 
 .projects span {
-  font-size: 15px;
+  font-size: 12px;
+}
+
+.seo {
+    position: absolute;
+    width: 18rem;
+    height: auto;
+    left: 1%;
+    bottom: 3px;
 }
 
 /*Design Inquiries*/
@@ -169,6 +177,7 @@ h3 {
 h2 {
   margin: 10px;
   background: none;
+  font-size: 20px;
 }
 
 
@@ -231,7 +240,7 @@ section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
   background: none;
-  font-size: 22px;
+  font-size: 14px;
 
 }
 
