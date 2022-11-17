@@ -13,6 +13,7 @@ html {
 
 main {
     position: relative;
+    text-decoration: none;
 }
 
 img {
@@ -32,10 +33,10 @@ img {
 
   /* Element Selectors */
 
-
-  @media only screen and (max-width: 992px) {
-    main {
-      top: 2rem;
+  /*Laptops/Desktops*/
+  @media only screen and ( (max-width: 992px) and (orientation: landscape) ) {
+     main {
+      width: 100%;    
     }
 }
 
@@ -136,11 +137,6 @@ h1 {
     text-decoration: none;
 }
 
-.about-me-aside {
-    float: left;
-    font-size: 12px;
-}
-
 /*Projects*/
 
 .projects-section {
@@ -148,19 +144,33 @@ h1 {
   padding: auto;
   z-index: 100;
   display: block;
-  font-size: 15px;
-  color:#4a4a4a;
+  font-size: 20px;
+  color:#413a3a;
   height: auto;
   width: auto;
-  bottom: 560px;
+  bottom: 230px;
   text-decoration: none;
 }
 
+.projects span {
+  font-size: 15px;
+}
+
+/*Design Inquiries*/
+
+h3 {
+  position: absolute;
+  font-size: 20px;
+  bottom: 220px;
+  right: 12%;
+  
+}
 
 h2 {
   margin: 10px;
   background: none;
 }
+
 
 li {
    display: inline;
@@ -174,31 +184,27 @@ a {
   color: #FDF8F5;
 }
 
-section {
-  margin-bottom: 0;
-  padding: 20px 10px 40px 10px;
-  background:none;
-}
-  
-form {
-    /* Center the form on the page */
-  margin: 20px auto;
-  width: auto;
+/*Design Inquiries*/
+
+.design-inquiries form {
+  position: absolute;
+  margin: 0 auto;
+  width: 10rem;
   padding: 0 2;
-  border: 2px solid whitesmoke;
-  border-radius: 20px;
-  float: left;
+  bottom: 30px;
+  right: 8%;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
 }
   
 label {
   display: inline-block;
-  width: 80px;
+  width: 50px;
 }
     
 input, 
 textarea {
   box-sizing: border-box;
-
   width: auto;
   border: 1px solid black;
   background-color: whitesmoke;
@@ -219,6 +225,16 @@ button {
   cursor: pointer;
 }
 
+/*Contacts*/
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  background: none;
+  font-size: 22px;
+
+}
+
 /*Footer*/
 
 footer {
@@ -228,7 +244,6 @@ footer {
     background-color: black;
     position: absolute;
     margin-top: 5;
-    bottom: 0;
     border-top: 2px solid gray;
     border-bottom: 5px solid #6b6b6b;
     color: #FDF8F5;    
