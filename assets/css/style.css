@@ -31,15 +31,6 @@ img {
  text-align: right;
 }
 
-/* Element Selectors */
-
-/*Laptops/Desktops*/
-@media only screen and ( (max-width: 992px) and (orientation: landscape) ) {
-   main {
-    width: 100%;    
-  }
-}
-
 /*Header*/
 
 header {
@@ -169,7 +160,7 @@ font-size: 18px;
   box-sizing: border-box;
 }
 
-.camera {
+.map {
   position: absolute;
   width: 12rem;
   height: auto;
@@ -178,6 +169,7 @@ font-size: 18px;
   border: solid 2px black;
   border-radius: 8px;    
   box-sizing: border-box;
+  opacity: 1;
 }
 
 .wine {
@@ -207,6 +199,29 @@ background: none;
 font-size: 20px;
 }
 
+.horiseon h5 {
+  position: absolute;
+  font-size: 20px;
+  bottom: 200px;
+  left: 12%;
+  color:#000000;
+}
+
+.coming-soon h5 {
+  position: absolute;
+  font-size: 20px;
+  bottom: 100px;
+  left: 30%;
+  color:gray;
+}
+
+.winery h5 {
+  position: absolute;
+  font-size: 20px;
+  bottom: 100px;
+  right: 40%;
+  color:whitesmoke;
+}
 
 li {
  display: inline;
