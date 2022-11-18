@@ -5,7 +5,7 @@ A portfolio of projects used to showcase my skills and talents to employers look
 
 ## Technologies Used
 
-HTML, CSS, CSS variables, media queries.
+HTML & CSS
 
 ## Description
 
@@ -27,3 +27,5 @@ Designing a website, adding semantic HTML elements, adding accessible alt attrib
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/104731082/202612401-020dd345-a7ed-4b37-b7f4-c34b73d7eaa2.png)
+![image](https://user-images.githubusercontent.com/104731082/202612501-1631d00d-70bb-4469-a189-f79495639d56.png)
+
