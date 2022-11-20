@@ -107,8 +107,8 @@ background-repeat: no repeat;
 text-decoration: none;
 }
 
-#main-content .background {
-  width: 90rem;
+.background {
+  width: 85rem;
   height: auto;
 }
 
@@ -185,13 +185,11 @@ font-size: 28px;
 
 .projects {
   position: absolute;
-  width: auto;
-  height: auto;
+  display: block;
+  width: 8rem;
+  height: 1rem;
   left: 1%;
-  bottom: 120px;
-  box-sizing: content-box;
-  border: solid 1px black;
-  border-radius: 8px; 
+  bottom: 170px; 
 }
 
 .projects .horiseon .seo{ 
@@ -199,7 +197,7 @@ font-size: 28px;
   width: 22rem;
   height: 18rem;
   left: 1%;
-  bottom: 190px;
+  bottom: 20px;
 }
 
 
@@ -208,7 +206,7 @@ font-size: 28px;
   width: 14rem;
   height: 14rem;
   left: 38em;
-  bottom: 90px;
+  bottom: 10px;
 }
 
 .projects .wine {
@@ -216,13 +214,13 @@ font-size: 28px;
   width: 14rem;
   height: 14rem;
   left: 65em;
-  bottom: 30px;
+  bottom: 10px;
 }
 
 .projects .horiseon h5 {
   position: absolute;
   font-size: 28px;
-  bottom: 490px;
+  bottom: 210px;
   left: 14%;
   color:#000000;
 }
@@ -230,7 +228,7 @@ font-size: 28px;
 .projects .coming-soon h5 {
   position: absolute;
   font-size: 25px;
-  bottom: 130px;
+  bottom: 40px;
   left: 24em;
   color:gray;
 }
@@ -243,6 +241,8 @@ font-size: 28px;
   color:whitesmoke;
 }
 
+
+
 /*Design Inquiries*/
 
 #design-inquiries form {
@@ -251,7 +251,7 @@ font-size: 28px;
   width: 22rem;
   height: 17rem;
   padding: 0 2;
-  bottom: 320px;
+  bottom: 230px;
   right: 5%;
   border: 1px solid whitesmoke;
   border-radius: 5px;
@@ -259,7 +259,7 @@ font-size: 28px;
 
 #design-inquiries h3 {
   font-size: 32px;
-  bottom: 750px;
+  bottom: 650px;
 }
 
 #design-inquires label {
