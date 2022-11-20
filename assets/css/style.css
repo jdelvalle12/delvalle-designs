@@ -22,34 +22,38 @@ html {
 }
 
  /* Media Query for Mobile Devices */
- @media only screen and (max-width: 480px) and (orientation) {
+ @media only screen and (max-width: 480px) and (orientation: landscape) {
   body {
-      width: auto;
-      height: auto;
+      width: 100%;
+      height: 100%;
+      font-size: 30px;
   }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   body {
-      width: auto;
-      height: auto;
+      width: 100%;
+      height: 100%;
+      font-size: 30px
   }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
-      width: auto;
-      height: auto;
+      width: 100%;
+      height: 100%;
+      font-size: 80px;
   }
 }
 
 /* Media Query for Laptops and Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   body {
-      width: auto;
-      height: auto;
+      width: 100%;
+      height: 100%;
+      font-size: 80px;
   }
 }
 
