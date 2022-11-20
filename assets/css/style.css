@@ -21,6 +21,38 @@ html {
   max-width: auto;
 }
 
+ /* Media Query for Mobile Devices */
+ @media only screen and (max-width: 480px) and (orientation) {
+  body {
+      width: auto;
+      height: auto;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  body {
+      width: auto;
+      height: auto;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+      width: auto;
+      height: auto;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  body {
+      width: auto;
+      height: auto;
+  }
+}
+
 /*Header*/
 
 #header {
@@ -71,7 +103,7 @@ background-repeat: no repeat;
 text-decoration: none;
 }
 
-.background {
+#main-content .background {
   width: 90rem;
   height: auto;
 }
@@ -160,50 +192,50 @@ font-size: 28px;
 
 .projects .horiseon .seo{ 
   position: absolute;
-  width: 26rem;
+  width: 22rem;
   height: 18rem;
   left: 1%;
-  bottom: 90px;
+  bottom: 190px;
 }
 
 
-.projects .coming-soon {
+.projects .coming-soon .blank{
   position: absolute;
   width: 14rem;
   height: 14rem;
-  left: 24em;
+  left: 38em;
   bottom: 90px;
 }
 
-.projects .winery {
+.projects .wine {
   position: absolute;
   width: 14rem;
   height: 14rem;
-  left: 39em;
+  left: 65em;
   bottom: 30px;
 }
 
 .projects .horiseon h5 {
   position: absolute;
   font-size: 28px;
-  bottom: 410px;
-  left: 8%;
+  bottom: 490px;
+  left: 14%;
   color:#000000;
 }
 
 .projects .coming-soon h5 {
   position: absolute;
   font-size: 25px;
-  bottom: 190px;
-  left: 20em;
+  bottom: 130px;
+  left: 24em;
   color:gray;
 }
 
 .projects .winery h5 {
   position: absolute;
-  font-size: 20px;
+  font-size: 24px;
   bottom: 170px;
-  left: 34em;
+  left: 45em;
   color:whitesmoke;
 }
 
