@@ -21,6 +21,42 @@ html {
   max-width: auto;
 }
 
+ /* Media Query for Mobile Devices */
+ @media only screen and (max-width: 480px) and (orientation: landscape) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 30px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 30px
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 80px;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 80px;
+  }
+}
+
 /*Header*/
 
 #header {
@@ -72,7 +108,7 @@ text-decoration: none;
 }
 
 .background {
-  width: 90rem;
+  width: 85rem;
   height: auto;
 }
 
@@ -102,6 +138,7 @@ float: right ;
 
 #main-content .about-me {
   font-size: 28px;
+  color: whitesmoke;
   position: absolute;
   display: block;
   top: 240px;
@@ -149,45 +186,43 @@ font-size: 28px;
 
 .projects {
   position: absolute;
-  width: auto;
-  height: auto;
+  display: block;
+  width: 8rem;
+  height: 1rem;
   left: 1%;
-  bottom: 120px;
-  box-sizing: content-box;
-  border: solid 1px black;
-  border-radius: 8px; 
+  bottom: 170px; 
 }
 
 .projects .horiseon .seo{ 
   position: absolute;
-  width: 26rem;
+  width: 22rem;
   height: 18rem;
   left: 1%;
-  bottom: 90px;
+  bottom: 20px;
 }
 
 
-.projects .manifesto {
+.projects .manifesto .blank{
   position: absolute;
   width: 14rem;
   height: 14rem;
-  left: 24em;
-  bottom: 90px;
+  left: 38em;
+  bottom: 10px;
 }
 
-.projects .winery {
+.projects .wine {
   position: absolute;
   width: 14rem;
   height: 14rem;
-  left: 39em;
-  bottom: 30px;
+  left: 65em;
+  bottom: 10px;
 }
 
 .projects .horiseon h5 {
   position: absolute;
   font-size: 28px;
-  bottom: 410px;
-  left: 8%;
+  bottom: 210px;
+  left: 14%;
   color:#000000;
 }
 
@@ -201,50 +236,54 @@ font-size: 28px;
 
 .projects .winery h5 {
   position: absolute;
-  font-size: 20px;
+  font-size: 24px;
   bottom: 170px;
-  left: 34em;
+  left: 45em;
   color:whitesmoke;
 }
 
+
+
 /*Design Inquiries*/
 
-#design-inquiries form {
+#main-content .design-inquiries form {
   position: absolute;
   margin: 0 auto;
   width: 22rem;
   height: 17rem;
   padding: 0 2;
-  bottom: 320px;
+  bottom: 110px;
   right: 5%;
   border: 1px solid whitesmoke;
   border-radius: 5px;
   }
 
-#design-inquiries h3 {
-  font-size: 32px;
-  bottom: 750px;
+#main-content .design-inquiries h3 {
+  font-size: 30px;
+  bottom: 530px;
+  color: whitesmoke;
 }
 
-#design-inquires label {
+#main-content .design-inquires label {
   display: inline-block;
   width: 120px;
-  }
+}
    
-#design-inquiries input, textarea {
+#main-content .design-inquiries input, textarea {
   box-sizing: border-box;
   width: 410px;
+  line-height: 1rem;
   border: 1px solid black;
   background-color: whitesmoke;
   border-radius: 15px;
 }
  
-#design-inquiries textarea {
+#main-content .design-inquiries .textarea {
   vertical-align: top;
   height: 40px;
 }
     
-#design-inquiries button {
+#main-content .design-inquiries button {
   height: 35px;
   width: 100px;
   background-color: whitesmoke;
@@ -254,23 +293,20 @@ font-size: 28px;
 }
 
 
-#design-inquiries .text-center {
+#main-content .design-inquiries .text-center {
   text-align: center;
   font-size: 22px;
 }
      
-#design-inquiries .text-right {
+#main-content .design-inquiries .text-right {
   text-align: right;
+  font-size: 24px;
 }
 
 
-h2 {
-margin: 10px;
-background: none;
-font-size: 28px;
-}
 
-#design-inquiries li {
+
+#main-content .design-inquiries li {
  display: block;
  padding: 0px 20px;
  line-height: 2rem;
