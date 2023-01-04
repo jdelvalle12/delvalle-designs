@@ -167,7 +167,7 @@ font-size: 28px;
 }
 
 
-.projects .coming-soon {
+.projects .manifesto {
   position: absolute;
   width: 14rem;
   height: 14rem;
@@ -191,12 +191,12 @@ font-size: 28px;
   color:#000000;
 }
 
-.projects .coming-soon h5 {
+.projects .manifesto h5 {
   position: absolute;
   font-size: 25px;
   bottom: 190px;
   left: 20em;
-  color:gray;
+  color:greenyellow;
 }
 
 .projects .winery h5 {
